@@ -89,7 +89,8 @@ const CarouselAlumni: React.FC<AlumniProps> = ({ alumniData }) => {
                                     <Image
                                         src={alumni.src}
                                         alt={`${alumni.name} - ${alumni.position}`}
-                                        layout="fill"
+                                        fill
+                                        // layout="fill"
                                         objectFit="cover"
                                         className={styles.alumniImage}
                                     />

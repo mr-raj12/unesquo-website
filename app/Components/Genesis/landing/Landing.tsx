@@ -216,7 +216,8 @@ const EventCard: React.FC<{ event: Event; index: number }> = ({ event, index }) 
                 <Image
                     src={event.imageUrl}
                     alt={event.title}
-                    layout="fill"
+                    fill
+                    // layout="fill"
                     objectFit="cover"
                 />
                 {event.featured && (
@@ -333,7 +334,8 @@ const GenesisEvents: React.FC = () => {
                     <Image
                         src={genesisImage}
                         alt="Hero background"
-                        layout="fill"
+                        fill
+                        // layout="fill"
                         objectFit="cover"
                         quality={100}
                     />

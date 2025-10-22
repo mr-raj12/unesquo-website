@@ -89,7 +89,8 @@ const CarouselTeam: React.FC<TeamProps> = ({ teamData }) => {
                   <Image
                     src={team.src}
                     alt={`${team.name} - ${team.position}`}
-                    layout="fill"
+                    fill
+                    //layout="fill"
                     objectFit="cover"
                     className={styles.alumniImage}
                   />
